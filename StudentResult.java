@@ -1,16 +1,9 @@
-import java.util.Scanner;
-
 public class StudentResult {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter Student Name:");
-        String name = sc.nextLine();
-
-        System.out.println("Enter Marks (0 - 100):");
-        int marks = sc.nextInt();
+        String name = "Udayaseelan";
+        int marks = 85;
 
         char grade;
 
@@ -34,7 +27,5 @@ public class StudentResult {
         System.out.println("Student Name: " + name);
         System.out.println("Marks: " + marks);
         System.out.println("Grade: " + grade);
-
-        sc.close();
     }
 }
