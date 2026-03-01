@@ -2,8 +2,8 @@ public class StudentResult {
 
     public static void main(String[] args) {
 
-        String name = "Udayaseelan";
-        int marks = 85;
+        String name = "ROSAN";
+        int marks = 90;
 
         char grade;
 
