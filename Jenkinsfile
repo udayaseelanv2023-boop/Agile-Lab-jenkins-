@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Source Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/udayaseelanv2023-boop/Agile-Lab-jenkins-.git'
+                git branch: 'main', url: 'https://github.com/rosan12052006-collab/agile-lab-jenkins.git'
             }
         }
 
